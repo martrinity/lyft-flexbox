@@ -17,16 +17,16 @@ body {
 .menu{
 	position: fixed;
 	top: 0;
-	left: 0;
+	right: 0;
 	width: 100%;
 }
 
-.flex-container.a-container{
+.menu.flex-container{
 	justify-content: flex-end;
 }
 
 a{
-  color: #373B47;
+  color: #fff;
   text-decoration: none;
   padding: 20px;
 }
@@ -36,12 +36,20 @@ a:hover {
 }
 
 .logo-container{
-	margin-right: : auto;
 	margin-left: 20px;
 }
 
 .flex-container.logo{
 	width: 70px;
 	height: 70px;
-	justify-content: flex-start;
+	align-self: 
+}
+
+#bgvid{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
 }
